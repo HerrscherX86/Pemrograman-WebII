@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.35), rgb(0, 0, 0, 0.35)), url(https://initiate.alphacoders.com/images/135/cropped-1332-664-1353118.jpeg?7027);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+.container {
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(111, 0, 255);
+
+    
+}
+table, th, td, th {
+    border: 1px solid #dee2e6;
+    text-align: center;
+}
+th, td {
+    padding: 6px;
+}
+th {
+    background-color: #212529;
+    color: #ffffff;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+.btn:hover {
+    background-color: #2100b3;
+    transform: scale(0.98)
+
+}
+form {
+    margin-top: 55px;
+    width: 35%;
+}
+.formbuku {
+    margin-top: 205px;
+    width: 35%;
+}
+.formpnjm{
+    padding-top: 200px;
+    margin-left: 600px;
+    width: 100%;
+}
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"], button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #ffffff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover, button:hover {
+    background-color: #218838;
+}
